@@ -35,7 +35,7 @@
     "ALIVE_PIC": {
       "description": "Put here any telegraph media link for alive pic in .alive command.",
       "value": "",
-      "required": true
+      "required": false
     },
     "HELP_PIC": {
       "description": "Put link of pic or gif to show your .help menu provider cool",
