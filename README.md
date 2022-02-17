@@ -43,7 +43,7 @@ height="40px" width="200px" alt="heroku" /></a>
 - Fill API ID, API HASH, Phone number (with country code).
 - Paste the OTP received on Telegram.
 - If You have Enabled 2-Step Verification then fill your password.
-- Your Ranger Bot Session Will be saved in your Telegram Saved Message.
+- Your Tyson Bot Session Will be saved in your Telegram Saved Message.
 
 ## 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 
    <a href="https://replit.com/@mafiarishabh/THANOS?v=1" target="_blank"><img src="https://img.shields.io/badge/run-『TYSØN』%20session-black?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
@@ -62,7 +62,7 @@ height="40px" width="200px" alt="heroku" /></a>
 
 
 - We won't be responsible for any kind of ban due to this bot.
-- thanosBot was made for fun purpose and to make group management easier.
+- tysonBot was made for fun purpose and to make group management easier.
 - It's your concern if you spam and gets your account banned.
 - Also, Forks won't be entertained.
 - If you fork this repo and edit plugins, it's your concern for further updates.
