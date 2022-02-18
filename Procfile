@@ -1,1 +1,1 @@
-worker: bash TysonBot
+worker: python3 TysonBot
