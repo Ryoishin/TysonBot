@@ -24,7 +24,7 @@
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally oor https://replit.com/@Tyson-14/TysonSESSION#main.py",
+      "description": "Get this value by running python3 telesetup.py locally oor https://replit.com/@Tyson-14/TysonSESSION?v=1",
       "value": ""
     },
     "TG_BOT_USERNAME": {
