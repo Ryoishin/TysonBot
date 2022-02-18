@@ -46,7 +46,7 @@ height="40px" width="200px" alt="heroku" /></a>
 - Your Tyson Bot Session Will be saved in your Telegram Saved Message.
 
 ## 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 
-   <a href="https://replit.com/@Tyson-14/TysonSESSION#main.py" target="_blank"><img src="https://img.shields.io/badge/run-『TYSØN』%20session-black?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
+   <a href="https://replit.com/@Tyson-14/TysonSESSION?v=1" target="_blank"><img src="https://img.shields.io/badge/run-『TYSØN』%20session-black?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
     
 -------------------------------------------------
 ## 𝚅𝙰𝚁𝙸𝙰𝙱𝙻𝙴𝚂 :
