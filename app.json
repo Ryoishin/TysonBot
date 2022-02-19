@@ -8,12 +8,12 @@
     "productivity"
   ],
   "repository": "https://github.com/Tyson-14/TysonBot/",
-  "website": "/welcome",
+  "website": "#TODO",
   "success_url": "https://t.me/The_Tysonsupport",
   "env": {
     "ALIVE_NAME": {
       "description": "give your name",
-      "value": "TYSØN uѕєr"
+      "value": ""
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
@@ -24,7 +24,7 @@
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value from replit.com https://replit.com/@Tyson-14/TysonSESSION?v=1",
+      "description": "Get this value by replit.com locally oor https://replit.com/@Tyson-14/TysonSESSION?v=1",
       "value": ""
     },
     "TG_BOT_USERNAME": {
@@ -64,7 +64,7 @@
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
-      "version": "12"
+      "version": "13"
     }
   }],
   "buildpacks": [{
