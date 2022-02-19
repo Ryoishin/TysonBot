@@ -3,7 +3,7 @@
 <b> †hê TYSØN ẞø† </b>
 </h1>
 <p align="center">
-  <img src="h" alt=" †hê TYSØN ẞø† ">
+  <img src="https://telegra.ph/file/ff472965e2064c949e343.jpg" alt=" †hê TYSØN ẞø† ">
 
 <h6 align="center">
   <b>⚡ ʟɛɢɛռɖaʀʏ ᴀғ TYSØNɮօt ⚡</b>
