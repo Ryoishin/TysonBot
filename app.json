@@ -11,53 +11,72 @@
   "website": "#TODO",
   "success_url": "https://t.me/The_Tysonsupport",
   "env": {
-    "ALIVE_NAME": {
-      "description": "give your name",
-      "value": "『TYSØN uѕєr』"
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "YOUR_NAME": {
+      "description": "Fill Your Telegram Name. Default Value is Hêll. Required for reverting after clone.",
+      "value": "『TYSØN uѕєr』",
+      "required": true
+    },
+    "PROFANITY": {
+      "description": "Leave it blank if you dont want Profanity in TysonBot. Else Fill ON.",
+      "value": "ON",
+      "required": false
+    },
+    "PM_LOG_ID": {
+      "description": "Fill your private Channel ID if you want to Log PM messages. Get channel id from @MissRose_bot",
+      "value": "",
+      "required": false
+    },
+    "HANDLER": {
+      "description": "Your command handler. Default is ' . ' (dot).",
+      "value": "."
+    },
+    "EMOJI_IN_HELP": {
+      "description": "A emoji to display in help command",
+      "value": "✧"
+    },
+    "BUTTONS_IN_HELP": {
+      "description": "No.of buttons to display in help menu.",
+      "value": "7"
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "Get this value from my.telegram.org",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "Get this value from my.telegram.org",
       "value": ""
     },
-    "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally oor https://replit.com/@Tyson-14/TysonSESSION?v=1",
+    "LOGGER_ID": {
+      "description": "Create a private channel. And get it's id from @HELL_ID_BOT and paste here. Value should start with -100",
       "value": ""
     },
-    "TG_BOT_USERNAME": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
+    "TYSONBOT_SESSION": {
+      "description": "Get this value by using repl or termux. Refer to Repo for more info.",
       "value": ""
-    },
-    "TG_BOT_TOKEN": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
-      "value": ""
-    },
-    "COMMAND_HAND_LER": {
-      "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
-      "value": ".",
-      "required": false
-    },
-    "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
-      "value": "ANYTHING",
-      "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
-      "value": "",
-      "required": false
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API. Required for updater to work.",
+      "value": ""
     },
     "HEROKU_APP_NAME": {
-      "description": "YOUR app name ",
-      "value": "",
-      "required": false
+      "description": "The Value of App Name you filled in right on top. Required for updater to work.",
+      "value": ""
     },
-    "TZ": {
-      "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
+    "BOT_TOKEN": {
+      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "value": ""
+    },
+    "BOT_USERNAME": {
+      "description": "Make a bot from @BotFather and paste the username here.",
+      "value": ""
+    },
+    "SUDO_USERS": {
+      "description": "Userid of user to grant sudo access. Add multiple sudo users by giving a space between userids",
+      "value": "",
       "required": false
     }
   },
