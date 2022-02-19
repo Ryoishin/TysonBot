@@ -23,6 +23,18 @@
 
 ---------------
 
+------
+[![GitHub forks](https://img.shields.io/github/forks/Tyson-14/TYSONPRO?&style=flat-square&logo=github)](https://github.com/Tyson-14/TYSONPRO/fork)
+[![GitHub stars](https://img.shields.io/github/stars/Tyson-14/TYSONPRO?&style=flat-square&logo=github)](https://github.com/Tyson-14/TYSONPRO/stargazers)
+![Repo Size](https://img.shields.io/github/repo-size/Tyson-14/TYSONPRO?&style=flat-square&logo=github)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green?&style=flat-square)
+[![GitHub license](https://img.shields.io/github/license/Tyson-14/TYSONPRO?&style=flat-square&logo=github)](https://github.com/Tyson-14/TYSONPRO/blob/master/LICENSE)
+[![Python](https://img.shields.io/badge/Python-v3.9-blue)](https://www.python.org/)
+![Branch](https://img.shields.io/badge/Branch-Master-orange)
+![GitHub language count](https://img.shields.io/github/languages/count/Tyson-14/TYSONPRO?color=Pink&label=Language&style=flat-square)
+
+------
+
 ## 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 :
 
 - <a href="https://t.me/The_TysonBot"><img src="https://img.shields.io/badge/Join-SUPPORT%20GROUP-blue.svg?logo=Telegram"></a>
