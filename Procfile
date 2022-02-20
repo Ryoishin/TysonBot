@@ -1,1 +1,1 @@
-worker: python3 TysonBot
+worker: python3 Tyson.py
