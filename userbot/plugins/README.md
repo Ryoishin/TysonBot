@@ -1,6 +1,6 @@
 ## Mandatory Imports
 ```python3
-from userbot import tysonub
+from userbot import lionub
 
 from ..funcs.managers import edit_delete, edit_or_reply
 
@@ -10,7 +10,7 @@ plugin_category="extra"
 ### Formation
 This below one is Sample format of making plugin
 ```python3
-from userbot import tysonub
+from userbot import lionub
 
 from ..funcs.managers import edit_delete, edit_or_reply
 
