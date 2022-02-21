@@ -64,7 +64,7 @@ async def check_bot_started_users(user, event):
         await event.client.send_message(BOTLOG_CHATID, notification)
 
 
-@lionub.bot_cmd(
+@tysonub.bot_cmd(
     pattern=f"^/start({botusername})?([\s]+)?$",
     incoming=True,
     func=lambda e: e.is_private,
@@ -106,13 +106,13 @@ async def bot_start(event):
             start_msg = f"Hey! 👤{mention},\
                         \nI am {my_mention}'s assistant bot.\
                         \nYou can contact to my master from here.\
-                        \n\nPowered by [LionX](https://t.me/LionX)"
+                        \n\nPowered by [TYSØN uѕєrвσt](https://t.me/The_TysonBot)"
         buttons = [
             (
-                Button.url("Repo", "https://github.com/TeamLionX/LionX"),
+                Button.url("Repo", "https://github.com/Tyson-14/TysonBot/"),
                 Button.url(
                     "Deploy",
-                    "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTeamLionX%2FLionX&template=https%3A%2F%2Fgithub.com%2FTeamLionX%2FLionX",
+                    "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTyon-14%2FTysonBot&template=https%3A%2F%2Fgithub.com%2FTyson-14X%2FTysonBot",
                 ),
             )
         ]
@@ -139,7 +139,7 @@ async def bot_start(event):
         await check_bot_started_users(chat, event)
 
 
-@lionub.bot_cmd(incoming=True, func=lambda e: e.is_private)
+@tysonub.bot_cmd(incoming=True, func=lambda e: e.is_private)
 async def bot_pms(event):  # sourcery no-metrics
     chat = await event.get_chat()
     if check_is_black_list(chat.id):
@@ -196,7 +196,7 @@ async def bot_pms(event):  # sourcery no-metrics
                     )
 
 
-@lionub.bot_cmd(edited=True)
+@tysonubub.bot_cmd(edited=True)
 async def bot_pms_edit(event):  # sourcery no-metrics
     chat = await event.get_chat()
     if check_is_black_list(chat.id):
@@ -407,7 +407,7 @@ async def send_flood_alert(user_) -> None:
         FloodConfig.ALERT[user_.id]["fa_id"] = fa_msg.id
 
 
-@lionub.tgbot.on(CallbackQuery(data=re.compile(b"bot_pm_ban_([0-9]+)")))
+@tysonub.tgbot.on(CallbackQuery(data=re.compile(b"bot_pm_ban_([0-9]+)")))
 @check_owner
 async def bot_pm_ban_cb(c_q: CallbackQuery):
     user_id = int(c_q.pattern_match.group(1))
@@ -449,7 +449,7 @@ def is_flood(uid: int) -> Optional[bool]:
         return True
 
 
-@lionub.tgbot.on(CallbackQuery(data=re.compile(b"toggle_bot-antiflood_off$")))
+@tysonub.tgbot.on(CallbackQuery(data=re.compile(b"toggle_bot-antiflood_off$")))
 @check_owner
 async def settings_toggle(c_q: CallbackQuery):
     if gvarstatus("bot_antif") is None:
@@ -459,8 +459,8 @@ async def settings_toggle(c_q: CallbackQuery):
     await c_q.edit("BOT_ANTIFLOOD is now disabled !")
 
 
-@lionub.bot_cmd(incoming=True, func=lambda e: e.is_private)
-@lionub.bot_cmd(edited=True, func=lambda e: e.is_private)
+@tysonub.bot_cmd(incoming=True, func=lambda e: e.is_private)
+@tysonub.bot_cmd(edited=True, func=lambda e: e.is_private)
 async def antif_on_msg(event):
     if gvarstatus("bot_antif") is None:
         return
